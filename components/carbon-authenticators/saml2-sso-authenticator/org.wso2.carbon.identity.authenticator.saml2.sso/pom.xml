@@ -80,7 +80,7 @@
                         </Private-Package>
                         <Import-Package>
                             javax.crypto,
-                            javax.xml.parsers,
+javax.xml.parsers;version="[0.0.0, 1.0.0)",
                             org.w3c.dom,
                             org.xml.sax,
                             org.apache.xerces.util; resolution:=optional,

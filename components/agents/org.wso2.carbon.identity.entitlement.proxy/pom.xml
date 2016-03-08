@@ -162,7 +162,7 @@
                         <Bundle-Name>${project.artifactId}</Bundle-Name>
                         <Import-Package>
                             !javax.xml.namespace,
-                            javax.xml.parsers; resolution:=optional,
+javax.xml.parsers;version="[0.0.0, 1.0.0)"; resolution:=optional,
                             javax.cache,
                             javax.crypto,
                             org.apache.axiom.om.*; version="${axiom.osgi.version.range}",

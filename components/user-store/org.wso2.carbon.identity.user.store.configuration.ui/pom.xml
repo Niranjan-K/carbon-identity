@@ -60,7 +60,7 @@
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
                         <Bundle-Name>${project.artifactId}</Bundle-Name>
                         <Import-Package>
-                            javax.xml.parsers,
+javax.xml.parsers;version="[0.0.0, 1.0.0)",
                             javax.xml.transform,
 
                             org.w3c.dom,

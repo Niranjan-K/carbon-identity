@@ -69,7 +69,7 @@
                             javax.annotation,
                             javax.inject,
                             javax.servlet.http; version="${imp.pkg.version.javax.servlet}",
-                            javax.xml.datatype, javax.xml.namespace, javax.xml.parsers,
+javax.xml.datatype, javax.xml.namespace, javax.xml.parsers;version=[0.0.0, 1.0.0),
                             org.apache.commons.logging; version="${commons-logging.osgi.version.range}",
                             org.bouncycastle.asn1.sec, org.bouncycastle.asn1.x9,
                             org.bouncycastle.jce.provider, org.bouncycastle.jce.spec, org.bouncycastle.math.ec,
